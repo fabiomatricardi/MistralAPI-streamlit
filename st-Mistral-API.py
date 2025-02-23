@@ -6,8 +6,6 @@ import datetime
 import random
 import string
 from PIL import Image
-
-
 import os
 import sys
 
@@ -20,9 +18,7 @@ def resource_path(relative_path):
 
     return os.path.join(base_path, relative_path)
 
-verbosity = False
 nCTX = '32k'
-sTOPS = ['<eos>']
 modelname = "Mistral AI"
 model = 'mistral-small-latest'
 # Set the webpage title
@@ -117,7 +113,7 @@ with st.sidebar:
     st.markdown(f"**Logfile**: {st.session_state.logfilename}")
 
 def clearChat():
-    st.session_state.chatMessages = []
+    st.session_state.messages = []
     st.info("Chat history cleared. Old messages in TXT log file.")
 
 # Display chat messages from history on app rerun
