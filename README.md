@@ -1,6 +1,8 @@
 # MistralAPI-streamlit
 A streamlit ChatBot running Mistral-Small-24B with free API calls
 
+<img src='https://github.com/fabiomatricardi/MistralAPI-streamlit/raw/main/mistralai.png' width=950>
+
 
 ## Instructions
 
