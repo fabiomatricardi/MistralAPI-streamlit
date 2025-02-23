@@ -31,4 +31,5 @@ streamlit run .\st-Mistral-API.py
 - you need to add your own API key (alert message if missing)
 - you can choose among 3 models
 - you can clear the chat (alert message)
-<img src='https://github.com/fabiomatricardi/Mistral-DesktopApp/raw/main/st-DeskApp-create_SM.gif' width=950>
+- in the terminal you can see what model is called
+<img src='https://github.com/fabiomatricardi/MistralAPI-streamlit/raw/main/st-MistralApp-runLG.gif' width=1100>
